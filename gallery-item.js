@@ -5,7 +5,8 @@ export const galleryItems = [
     description:
       "This game is a quick game now available also on your phone, so go ahead ans have some fun!",
     link_git: "https://github.com/Lazer-Bauer/Tic-Tac-Toe", // Replace this with the actual link
-    link_download: "../Tic-Tac-Toe/Tic-Tac-Toe.zip",
+    link_download:
+      "https://github.com/Lazer-Bauer/Tic-Tac-Toe/archive/refs/heads/main.zip",
     link: "https://lazer-bauer.github.io/Tic-Tac-Toe/",
     technologyTools: ["./icons/html.png", "./icons/css.png", "./icons/js.png"],
   },
@@ -15,7 +16,8 @@ export const galleryItems = [
     description:
       "If you want to learn the RGB in numbers?, this game will help you practice in RGB!",
     link: "https://lazer-bauer.github.io/color-guessing-game/",
-    link_download: "./color gussing game/color gussing game.zip",
+    link_download:
+      "https://github.com/Lazer-Bauer/color-guessing-game/archive/refs/heads/main.zip",
     link_git: "https://github.com/Lazer-Bauer/color-guessing-game",
     technologyTools: ["./icons/html.png", "./icons/css.png", "./icons/js.png"],
   },
@@ -25,7 +27,8 @@ export const galleryItems = [
     description:
       "Snake game is an easy game and is suited also for children,so go ahead and give your children an amazing time! ",
     link_git: "https://github.com/Lazer-Bauer/snake-game",
-    link_download: "/snake-game/Snake Game.zip",
+    link_download:
+      "https://github.com/Lazer-Bauer/snake-game/archive/refs/heads/main.zip",
     link: "https://lazer-bauer.github.io/snake-game/",
     technologyTools: ["./icons/html.png", "./icons/css.png", "./icons/js.png"],
   },
@@ -34,7 +37,8 @@ export const galleryItems = [
     title: "Calculator",
     description: "Calculate here big or complicated numbers easy and fast ",
     link_git: "https://github.com/Lazer-Bauer/Calculator ",
-    link_download: "./calculator/calculator.zip",
+    link_download:
+      "https://github.com/Lazer-Bauer/Calculator/archive/refs/heads/main.zip",
     link: "https://lazer-bauer.github.io/Calculator/",
     technologyTools: ["./icons/html.png", "./icons/css.png", "./icons/js.png"],
   },
@@ -44,7 +48,8 @@ export const galleryItems = [
     description:
       "In this app you wil be able to find out information of any country in the world",
     link_git: "https://github.com/Lazer-Bauer/countries-information",
-    link_download: "./Api country selector/Api country selector.zip",
+    link_download:
+      "https://github.com/Lazer-Bauer/countries-information/archive/refs/heads/main.zip",
     link: "https://lazer-bauer.github.io/countries-information/",
     technologyTools: [
       "./icons/html.png",
@@ -61,7 +66,8 @@ export const galleryItems = [
     fileType: "PNG",
     badge: "Trend",
     link_git: "https://github.com/Lazer-Bauer/key-board",
-    link_download: "./KeyBoard/keyBoard.zip",
+    link_download:
+      "https://github.com/Lazer-Bauer/key-board/archive/refs/heads/main.zip",
     link: "https://lazer-bauer.github.io/key-board/",
     technologyTools: ["./icons/html.png", "./icons/css.png", "./icons/js.png"],
   },
@@ -70,7 +76,8 @@ export const galleryItems = [
     title: "Todo List",
     description:
       "When there's a lot of things in your head to do ,and life becomes stressful it's a good idea to write it down. Todo list will do the job!!",
-    link_download: "./Todo List/Todo List.zip",
+    link_download:
+      "https://github.com/Lazer-Bauer/ToDo-list/archive/refs/heads/main.zip",
     link_git: "https://github.com/Lazer-Bauer/ToDo-list",
     link: "https://lazer-bauer.github.io/ToDo-list/",
     technologyTools: [
@@ -87,7 +94,8 @@ export const galleryItems = [
     title: "Expense tracker",
     description:
       "Make suer you don't fall into minus and pay high interest rate,so start tracking your income and expenses",
-    link_download: "./Expense Tracker/Expense Tracker.zip",
+    link_download:
+      "https://github.com/Lazer-Bauer/expense-tracker/archive/refs/heads/main.zip",
     link_git: "https://github.com/Lazer-Bauer/expense-tracker",
     link: "https://lazer-bauer.github.io/expense-tracker/",
     technologyTools: [
