@@ -1,4 +1,6 @@
 import { galleryItems } from "./gallery-item.js";
+const GIT_USER = "lazer-bauer";
+
 const $about = document.querySelector(".about");
 const $contact = document.querySelector(".contact");
 const $usedTechnology = document.querySelector(".used-Technology");
@@ -66,6 +68,7 @@ function createGalleryItem(item) {
 </div>`;
   return galleryItemDiv;
 }
+
 function generateGallery() {
   galleryItems.forEach((item) => {
     const itemDiv = createGalleryItem(item);
@@ -78,16 +81,27 @@ function generateGallery() {
 const $projetPage = document.querySelector(".projetPage");
 console.log($projetPage);
 
+function getProjectLinks(repo) {
+  return {
+    git: `https://github.com/${GIT_USER}/${repo}`,
+    download: `https://github.com/${GIT_USER}/${repo}/archive/refs/heads/main.zip`,
+    live: `https://${GIT_USER}.github.io/${repo}/`,
+  };
+}
+
 function createProjectPage(project) {
   $mainPage.style.display = "none";
   $projetPage.style.display = "block";
+
+  const links = getProjectLinks(project.repo);
+
   const section = ` <div class="projectDescription">
  
   <h2>${project.title}</h2>
   <p> ${project.description}</p>
   <div class="projectLinks">
-    <a href="${project.link_download}" download="filename.zip">Download File</a>
-    <a href="${project.link_git}">git link</a>
+    <a href="${links.download}" download="${project.repo}.zip">Download File</a>
+    <a href="${links.git}">git link</a>
   </div>
 </div>
 <div class="projetTechnology">
@@ -103,7 +117,7 @@ ${project.technologyTools
   .join(" ")}
 
 </div>
-<a href="${project.link}" target="_blank" class="projectPic">
+<a href="${links.live}" target="_blank" class="projectPic">
 
   <img
     src="${project.src}"

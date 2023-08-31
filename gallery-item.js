@@ -4,10 +4,11 @@ export const galleryItems = [
     title: "Tic Tac Toe Game",
     description:
       "This game is a quick game now available also on your phone, so go ahead ans have some fun!",
-    link_git: "https://github.com/Lazer-Bauer/Tic-Tac-Toe", // Replace this with the actual link
-    link_download:
-      "https://github.com/Lazer-Bauer/Tic-Tac-Toe/archive/refs/heads/main.zip",
-    link: "https://lazer-bauer.github.io/Tic-Tac-Toe/",
+    repo: "Tic-Tac-Toe",
+    // link_git: "https://github.com/Lazer-Bauer/Tic-Tac-Toe", // Replace this with the actual link
+    // link_download:
+    //   "https://github.com/Lazer-Bauer/Tic-Tac-Toe/archive/refs/heads/main.zip",
+    // link: "https://lazer-bauer.github.io/Tic-Tac-Toe/",
     technologyTools: ["./icons/html.png", "./icons/css.png", "./icons/js.png"],
   },
   {
