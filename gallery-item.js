@@ -5,7 +5,7 @@ export const galleryItems = [
     description:
       "This game is a quick game now available also on your phone, so go ahead ans have some fun!",
     link_git: "https://github.com/Lazer-Bauer/Tic-Tac-Toe", // Replace this with the actual link
-    link_download: "./Tic-Tac-Toe/Tic-Tac-Toe.zip",
+    link_download: "../Tic-Tac-Toe/Tic-Tac-Toe.zip",
     link: "https://lazer-bauer.github.io/Tic-Tac-Toe/",
     technologyTools: ["./icons/html.png", "./icons/css.png", "./icons/js.png"],
   },
@@ -25,7 +25,7 @@ export const galleryItems = [
     description:
       "Snake game is an easy game and is suited also for children,so go ahead and give your children an amazing time! ",
     link_git: "https://github.com/Lazer-Bauer/snake-game",
-    link_download: "./Snake Game/Snake Game.zip",
+    link_download: "/snake-game/Snake Game.zip",
     link: "https://lazer-bauer.github.io/snake-game/",
     technologyTools: ["./icons/html.png", "./icons/css.png", "./icons/js.png"],
   },
