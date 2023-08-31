@@ -33,7 +33,7 @@ function scrollToSection(element) {
 // render icon of used technology
 const techImg = ["api", "bootstrap", "class", "css", "es6", "html", "js", "ts"];
 techImg.forEach((tech) => {
-  $usedTechnology.innerHTML += `<img src="../icons/${tech}.png" alt="icon">`;
+  $usedTechnology.innerHTML += `<img src="./icons/${tech}.png" alt="icon">`;
 });
 
 // render gallery of projects to DOM
